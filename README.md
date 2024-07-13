@@ -15,16 +15,16 @@ Note: The model Opener and closer will be elements you must create yourself.
 <button model="#floating-dialogue" dp> Open Dialogue </button>
 
 \<div id="floating-dialogue">\
-  <img src="https://placehold.co/600x400">
+  \<img src="https://placehold.co/600x400">\
 
   \<article>\
-    <h2>Case Sensitive</h2>
+    \<h2>Case Sensitive</h2>\
     \<p>\
       This floating dialogue was created automatically. 
       You can check out our automatic svg icon creator 
       that can create an Icon that can be edited, unlike
       variable svg fonts that can't be edited.
-      <a src="https://github.com/legen07/iconstable> IconsTable </a>
+      \<a src="https://github.com/legen07/iconstable> IconsTable </a>\
     \</p>\
   \</article>\
 \</div>\
