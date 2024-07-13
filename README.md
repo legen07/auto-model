@@ -12,9 +12,9 @@ Note: The model Opener and closer will be elements you must create yourself.
 
 ##For example. 
 
-<button model="#floating-dialogue" dp> Open Dialogue </button>
+'<button model="#floating-dialogue" dp> Open Dialogue </button>
 
-<div id="floating-dialogue" style=" background-color: white; width: 300px; border: solid 1px #9999;">
+<div id="floating-dialogue">
   <img src="https://placehold.co/600x400">
 
   <article>
@@ -27,4 +27,4 @@ Note: The model Opener and closer will be elements you must create yourself.
       <a src="https://github.com/legen07/iconstable> IconsTable </a>
     </p>
   </article>
-</div>
+</div>'
