@@ -24,7 +24,7 @@ Note: The model Opener and closer will be elements you must create yourself.
       You can check out our automatic svg icon creator 
       that can create an Icon that can be edited, unlike
       variable svg fonts that can't be edited.
-      [IconsTable] (https://github.com/legen07/iconstable)
+      [IconsTable](https://github.com/legen07/iconstable)
     </p>
   </article>
 </div>
