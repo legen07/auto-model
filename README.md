@@ -21,10 +21,10 @@ Note: The model Opener and closer will be elements you must create yourself.
     <h2>Case Sensitive</h2>
     <p>
       This floating dialogue was created automatically. 
-      You can check out our automatic svg icon creator that can create an Icon that can be edited, unlike variable svg fonts that can't be edited.
-      [[link] IconsTable ]
+      You can check out our automatic svg icon creator 
+      that can create an Icon that can be edited, unlike
+      variable svg fonts that can't be edited.
+      [IconsTable] (https://github.com/legen07/iconstable)
     </p>
   </article>
 </div>
-
-[[https://github.com/legen07/iconstable] [link]]
