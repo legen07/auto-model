@@ -14,7 +14,7 @@ Note: The model Opener and closer will be elements you must create yourself.
 
 <button model="#floating-dialogue" dp> Open Dialogue </button>
 
-<div id="floating-dialogue">
+<div id="floating-dialogue" style=" background-color: white; width: 300px; border: solid 1px #9999;">
   <img src="https://placehold.co/600x400">
 
   <article>
@@ -24,7 +24,7 @@ Note: The model Opener and closer will be elements you must create yourself.
       You can check out our automatic svg icon creator 
       that can create an Icon that can be edited, unlike
       variable svg fonts that can't be edited.
-      [IconsTable](https://github.com/legen07/iconstable)
+      <a src="https://github.com/legen07/iconstable> IconsTable </a>
     </p>
   </article>
 </div>
