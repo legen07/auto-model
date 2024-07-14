@@ -16,7 +16,7 @@ If you want to additional functions to the Model on open, Just create another fu
 
 ### For example. 
 
-<button model="floating-dialogue" dp> Open Dialogue </button>
+\<button model="floating-dialogue" dp>\ Open Dialogue \</button>\
 
 \<div id="floating-dialogue">\
 &nbsp;&nbsp;\<button close="floating-dialogue">\ X \</button>\
