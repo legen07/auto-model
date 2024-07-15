@@ -58,11 +58,11 @@ document.addEventListener("click", (e) => {
     clickCount+=1
     switch (true) {
 
-    case d.hasAttribute(["modal"]):
+    case c.is("[modal]"):
       modOpener(c);
       break;
 
-    case d.hasAttribute(["close"]):
+    case c.is("[close]"):
       modCloser(c);
       break;
 
