@@ -53,7 +53,10 @@ document.addEventListener("click", (e) => {
     (d = $(d).parent("label")[0]);
 
   let c = $(d);
-  switch (true) {
+  let clickCount = 0;
+  const clickSwitch = () => {
+    clickCount+=1
+    switch (true) {
 
     case d.hasAttribute(["modal"]):
       modOpener(c);
@@ -63,7 +66,13 @@ document.addEventListener("click", (e) => {
       modCloser(c);
       break;
 
-    default: 
-      break;    
-    }
+    default:
+      if (clickCount > 1) {
+        break
+      }
+      c = c.parent()
+      clickSwitch()
+    }}
+
+    clickSwitch();
   })
