@@ -6,7 +6,7 @@ Add the attribute model="&lt;model Id>" to the model opener.
 
 Add &lt;dp> attribute just "dp" if you want the same Model opener to close the model.
 Otherwise add close="&lt;model id>" to the model closer.
-The jsdelivr cdn for this repository is https://cdn.jsdelivr.net/gh/legen07/auto-model@main/app.js
+The jsdelivr cdn for this repository is https://cdn.jsdelivr.net/gh/legen07/auto-model@edit/main/auto-model.js
 
 Note: The model Opener and closer will be elements you must create yourself. 
 
