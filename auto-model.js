@@ -23,7 +23,7 @@ function modOpener(c) {
   }
 
   const modFunc = /^(\b\w+\b).*(\b\w+\b)/m.exec(modal);
-  let funcName = modFunc[1] ?
+  let funcName = modFunc[1] === null ?
     (modFunc[1] + modFunc[2][0].toUpperCase() + modFunc[2].slice(1)) : modal
   try {
     eval(funcName + "(modal, c)");
